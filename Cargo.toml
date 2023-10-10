@@ -1,0 +1,12 @@
+[package]
+name = "degra-pdf-diff"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.2"
+image = "0.24.7"
+lcs-image-diff = { git = "https://github.com/wvffle/lcs-image-diff-rs.git", branch = "wvffle/update-image" }
+pdfium-render = "0.8.12"
